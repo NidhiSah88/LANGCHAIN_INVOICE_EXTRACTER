@@ -1,0 +1,55 @@
+
+conda create -p ./venv python=3.10 -y
+
+conda activate ./venv
+ pip install -r requirements.txt  
+
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+verify environments exist: 
+
+conda env list
+python --version
+
+
+To run : streamlit run app.py 
+
+pip show streamlit
+pip show starlette
+
+
+
+
+
+Clean setup from scratch
+
+If you're just starting the project, do:
+
+conda deactivate
+
+conda remove -p ./venv --all -y
+
+conda create -p ./venv python=3.10 -y
+
+conda activate ./venv
+
+pip install -r requirements.txt
+
+python -m streamlit run app.py
+
+
+conda activate ./venv            
+python -m streamlit run app.py
+
+
+git pull --rebase origin main
+
+pip install pdf2image
+brew install poppler
+
+
+
+

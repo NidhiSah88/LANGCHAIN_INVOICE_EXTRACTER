@@ -1,0 +1,52 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Model files (optional - if large)
+*.h5
+*.keras
+*.pkl
+
+# TensorBoard
+runs/
+events.out.tfevents.*
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+temp/
+tmp/
+
+
